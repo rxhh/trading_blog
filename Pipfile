@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+scipy = "*"
+plotly = "*"
+matplotlib = "*"
+ipykernel = "*"
+ipywidgets = "*"
+requests = "*"
+numpy = "==1.23.5"
+numba = "==0.59"
+nbformat = "*"
+vectorbtpro = {extras = ["base-no-talib"], git = "https://github.com/polakowo/vectorbt.pro.git"}
+optuna = "*"
+pandas-ta = "*"
+websocket-client = "*"
+pycryptodome = "*"
+openpyxl = "*"
+pyarrow = "*"
+mypy-extensions = "*"
+humanize = "*"
+scikit-learn = "*"
+schedule = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
