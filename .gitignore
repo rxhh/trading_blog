@@ -2,3 +2,4 @@ secret.py
 data/
 temp/
 *.pyc
+.log

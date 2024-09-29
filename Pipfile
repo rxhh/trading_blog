@@ -25,6 +25,9 @@ mypy-extensions = "*"
 humanize = "*"
 scikit-learn = "*"
 schedule = "*"
+statsmodels = "*"
+pycaret = "*"
+dateparser = "*"
 
 [dev-packages]
 
