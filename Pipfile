@@ -28,6 +28,7 @@ schedule = "*"
 statsmodels = "*"
 pycaret = "*"
 dateparser = "*"
+seaborn = "*"
 
 [dev-packages]
 

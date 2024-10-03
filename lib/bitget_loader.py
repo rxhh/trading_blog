@@ -19,7 +19,8 @@ def download_klines_on_date(symbol, d):
         df = df.rename(columns={'basevolume':'volume'})
         df.to_parquet(f"../data/candles/{symbol}/{d.strftime('%Y%m%d')}.pq")
         return True
-    except:
+    except Exception as e:
+        print(e)
         return False
 
 def download_klines_in_date_range(symbol, start, end):
