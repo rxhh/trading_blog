@@ -11,8 +11,8 @@ matplotlib = "*"
 ipykernel = "*"
 ipywidgets = "*"
 requests = "*"
-numpy = "==1.23.5"
-numba = "==0.59"
+numpy = "*"
+numba = "*"
 nbformat = "*"
 vectorbtpro = {extras = ["base-no-talib"], git = "https://github.com/polakowo/vectorbt.pro.git"}
 optuna = "*"
@@ -29,6 +29,10 @@ statsmodels = "*"
 pycaret = "*"
 dateparser = "*"
 seaborn = "*"
+kneed = "*"
+tqdm = "*"
+ccxt = "*"
+legitindicators = "*"
 
 [dev-packages]
 
