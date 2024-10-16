@@ -33,6 +33,7 @@ kneed = "*"
 tqdm = "*"
 ccxt = "*"
 legitindicators = "*"
+alpaca-py = "*"
 
 [dev-packages]
 
