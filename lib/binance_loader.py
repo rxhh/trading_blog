@@ -78,3 +78,10 @@ def parse_binance_ohlc(df):
     df = df.set_index(pd.to_datetime(df['timestamp'].astype(np.int64), unit='ms')).sort_index()
     df.index.name = 'dt'
     return df
+
+def load_ohlc_in_date_range(symbol, start, end):
+    path_to = f"../data/candles/{symbol}.pq"
+    if not os.path.isfile(path_to):
+        print(f"{symbol} not found")
+    else:
+        return pd.read_parquet(path_to).loc[start:end]
